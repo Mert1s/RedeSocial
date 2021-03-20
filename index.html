@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu primeiro Projeto</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <style>
+    body {
+      background-color: #2f302f;
+    }
+
+    .cell {
+      color: white;
+      text-align: center;
+    }
+
+    a {
+      color: white;
+    }
+
+    .postagem {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      border: #2f302f solid 5px;
+      border-radius: 20px;
+      background-color: #434142;
+    }
+
+    .botoesinferiores {
+      margin-top: 5px;
+      color: white;
+      border-radius: 5px;
+    }
+
+    .boton {
+      align-items: center;
+    }
+
+    img {
+      border-radius: 7px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="grid-container" style="border-top:#807981 solid  1px; border-bottom: #807981 solid  1px;" id="titulo">
+    <div class="cell ">
+      <H1>Projeto rede social</H1>
+    </div>
+  </div>
+  <div class="grid-x" id="corpo">
+    <div class="cell small-2 medium-2" id="esquerda" style="padding: 2%;">
+      <p><a>Página inicial</a></p>
+      <p><a>Amigos</a></p>
+      <p><a>Grupos</a></p>
+      <p><a>Outros</a></p>
+    </div>
+    <div class="cell small-8 medium-8 " id="centro">
+      <div class="cell postagem">
+
+        <h3>Título da postagem</h3>
+        <h4>Descrição</h4>
+        <img src="img/1.jpg" alt="" srcset="" style="margin-top: 10px">
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x boton">
+            <div class="cell auto"><a href="" class="button  botoesinferiores" style="color: white;">Curtir</a></div>
+            <div class="cell auto"><a href="" class="button  botoesinferiores" style="color: white;">Comentar</a></div>
+            <div class="cell auto"><a href="" class="button  botoesinferiores" style="color: white;">Compartilhar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cell postagem">
+        <h3>Título da postagem</h3>
+        <h4>Descrição</h4>
+        <img src="img/2.jpg" alt="" srcset="">
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x">
+            <div class="cell auto"><a href="" class="button  botoesinferiores" style="color: white;">Curtir</a>
+            </div>
+            <div class="cell auto"><a href="" class="button  botoesinferiores" style="color: white;">Comentar</a>
+            </div>
+            <div class="cell auto"><a href="" class="button  botoesinferiores"
+                style="color: white;">Compartilhar</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell postagem">
+        <h3>Título da postagem</h3>
+        <h4>Descrição</h4>
+        <img src="img/3.jpg" alt="" srcset="">
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x">
+            <div class="cell auto"><a href="" class="button  botoesinferiores" style="color: white;">Curtir</a>
+            </div>
+            <div class="cell auto"><a href="" class="button  botoesinferiores" style="color: white;">Comentar</a>
+            </div>
+            <div class="cell auto"><a href="" class="button  botoesinferiores"
+                style="color: white;">Compartilhar</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cell small-2 medium-2" id="direita" style="padding: 2%;"">
+        <button class=" hollow button" style="border-radius: 5px;" href="#">Lista de amigos online</button>
+    </div>
+
+  </div>
+  <div class="medium-2 cell" id="rodape" style="padding: 2%; border:#807981 solid  1px;">Rodapé</div>
+  <!--Importação do FrameWork-->
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+
+</html>
